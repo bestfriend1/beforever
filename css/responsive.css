@@ -1,0 +1,211 @@
+@media(max-width:500px){
+    .ready #ready-btn{
+        display: none;
+    }
+    .logo-area{
+        margin-top: 5px;
+    }
+}
+
+
+@media(max-width:850px){
+    .banner-main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-text-area{
+        margin-bottom: 8vh;
+    }
+    .banner-img img{
+        border-radius: 8px;
+    }
+    .start-ready{
+        margin-top: 5vh;
+    }
+    .banner-area{
+        margin-bottom: 10vh;
+        margin-top: 0vh;
+    }
+    .header-area{
+        margin-bottom: 0vh;
+    }
+    body{
+        max-width: 100%;
+        width: 100%;
+    }
+    .banner-container{
+        padding: 0px;
+        display: block;
+        /* max-width: 1380px; */
+        width: 85%;
+        margin: auto
+    }
+}
+@media (max-width:500px) {
+    .banner-heading h1{
+        font-size: 40px;
+        margin-bottom: 13px;
+    }
+    .banner-heading p{
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media(max-width:400px) {
+    .banner-heading h1{
+        font-size: 33px;
+    }
+    .banner-heading p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .start-ready{
+        margin-top: 4vh;
+    }
+}
+
+@media(max-width:800px){
+    .section-1{
+        margin-top: 2vh;
+        margin-bottom: 10vh;
+    }
+    .section1-top,.section2-top,.section3-top,.section4-top,.section5-top{
+        margin-bottom: 8vh;
+    }
+}
+@media(max-width:500px){
+    .title{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+@media(max-width:450px){
+    .title{
+        font-size: 28px;
+    }
+    .subtitle{
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+@media(max-width:550px){
+    .section2-details{
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+}
+@media(max-width:750px){
+    .section-2,.section-4{
+        padding: 8vh 0px 6vh 0px;
+        margin-bottom: 7vh;
+    }
+    .section-3{
+        margin-bottom: 7vh;
+    }
+}
+@media(max-width:550px){
+    .product-card{
+        grid-template-columns: repeat(1, 100%);
+        border-radius: 5px;
+    }
+    .product-img{
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-bottom: 20px;
+        max-width: 300px;
+    }
+    .see-all-btn{
+        margin-top: 2vh;
+    }
+
+}
+
+@media(max-width:400px){
+    .section5-img{
+        margin-bottom: 20px;
+    }
+    .section5-img img{
+        width: 80px;
+    }
+}
+.responsive-menu-area{
+    display: none;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    height: 100vh;
+    overflow: auto;
+    z-index: 200;
+    max-width: 300px;
+    border-right: 1px solid #ddd;
+    transition: all 0.3s linear;
+}
+.cross{
+    display: block;
+}
+.cross span{
+    color: #121634;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px 0 #eee;
+}
+.responsive-menu-area ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+}
+.responsive-menu-area ul li{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    height: auto;
+    box-sizing: border-box;
+}
+.responsive-menu-area ul li a{
+    display: block;
+    color: #041C4F;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 10px 8px 15px;
+    box-sizing: border-box;
+    transition: all 0.3s linear; 
+    border-radius: 4px;
+}
+.responsive-menu-area ul li a:hover{
+    background-color: #041C4F;
+    color: #fff;
+}
+.active-menu{
+    left: 0px;
+}
+@media(max-width:978px){
+    .responsive-menu-area{
+        display: block!important;
+    }
+}

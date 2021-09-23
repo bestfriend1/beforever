@@ -7,16 +7,13 @@
     <title>Be Forever Ready</title>
     <!---css-link-->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!---google-font-link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-     <!--js-link-->
-     <script src="js/jquery.js"></script>
-     <script src="js/project.js"></script>
-     <script src="js/bootstrap.js"></script>
+     <!--js-font-awesome-icon-->
      <script src="js/font.js"></script>
 
 </head>
@@ -30,7 +27,7 @@
                         <img src="image/logo.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 d-lg-block d-none">
+                <div class="col-lg-7 d-lg-block d-none">
                     <div class="menu-area">
                         <ul>
                             <li><a href="#">Home</a></li>
@@ -40,20 +37,33 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-9">
+                <div class="col-lg-2 col-9">
                     <ul class="ready text-end">
                         <li><a href="#" id="ready-btn">Be Forever Ready</a></li>
+                        <li class="d-lg-none d-inline-block"><span id="bar"><i class="fa fa-bars"></i></span></li>
                     </ul>
                 </div>
+            </div>
+            <!---responsive-menu-area-->
+            <div class="responsive-menu-area" id="res">
+                <div class="cross">
+                    <span>X</span>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Prapare</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Resource</a></li>
+                </ul>
             </div>
         </div>
     </header>
 
     <!---banner-area-->
-    <section class="banner-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-5">
+    <section class="banner-area" style="position: relative;">
+        <div class="banner-container">
+            <div class="banner-main" >
+                <div class="">
                     <div class="banner-text-area">
                       <div>
                         <div class="banner-heading">
@@ -64,17 +74,17 @@
                         <div class="start-ready">
                             <form action="">
                                 <div class="input-box">
-                                    <input type="text" value="" placeholder="">
+                                    <input type="text" value="" placeholder="Enter your email to recieve alerts.">
                                 </div>
                                 <div class="ready-btn">
-                                    <button>Start Ready</button>
+                                    <button>Stay Ready</button>
                                 </div>
                             </form>
                         </div>
                       </div>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="">
                     <div class="banner-img">
                         <img src="image/banner-img.png" alt="">
                     </div>
@@ -93,8 +103,8 @@
             </div>
             <!---section-details-->
             <div class="section1-main">
-                <div class="row">
-                    <div class="col-2">
+                <div class="row g-lg-4 g-md-3 g-sm-3 g-3">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
                         <div class="section1-details">
                             <div class="icon">
                             <img src="image/flower-icon.png" alt="">
@@ -105,7 +115,7 @@
                         </div>
                         
                     </div>
-                    <div class="col-2">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
                         <div class="section1-details">
                             <div class="icon">
                               <img src="image/home-icon.png" alt="">
@@ -115,7 +125,7 @@
                                 </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
                         <div class="section1-details">
                             <div class="icon">
                                 <img src="image/fire-icon.png" alt="">
@@ -125,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
                         <div class="section1-details">
                             <div class="icon">
                                 <img src="image/eart-icon.png" alt="">
@@ -135,7 +145,7 @@
                            </div> 
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
                         <div class="section1-details">
                             <div class="icon">
                                 <img src="image/social-icon.png" alt="">
@@ -145,7 +155,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
                         <div class="section1-details">
                             <div class="icon">
                                 <img src="image/pandemic.png" alt="">
@@ -169,8 +179,8 @@
             </div>
             <!---section2-main-->
             <div class="section2-main">
-                <div class="row g-5">
-                    <div class="col-4">
+                <div class="row g-lg-5 g-md-4 g-sm-3 g-3">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="section2-details">
                             <div class="section2-img">
                                 <a href="#"><img src="image/img1.png" alt=""></a>
@@ -181,7 +191,7 @@
                         </div>
                     
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="section2-details">
                             <div class="section2-img">
                                 <a href="#"><img src="image/img2.png" alt=""></a>
@@ -191,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="section2-details">
                             <div class="section2-img">
                                 <a href="#"><img src="image/img3.png" alt=""></a>
@@ -211,12 +221,12 @@
         <div class="container">
             <div class="section3-top text-center">
                 <h2 class="title">Be <span> Forever</span> Ready</h2>
-                <h3 class="subtitle">Prepare for the unknown. Should you loose power or have to evacuate, get the items you need ahead of time.  </h3>
+                <h3 class="subtitle">Get the tools you need to keep you and your family safe.</h3>
             </div>
             <!---section2-main-->
             <div class="section3-main">
-                <div class="row g-5">
-                    <div class="col-4">
+                <div class="row g-lg-5 g-md-4 g-sm-3 g-3">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="section3-details">
                             <div class="section3-img">
                                 <a href="#"><img src="image/img4.png" alt=""></a>
@@ -228,7 +238,7 @@
                     
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="section3-details">
                             <div class="section3-img">
                                 <a href="#"><img src="image/img5.png" alt=""></a>
@@ -239,7 +249,7 @@
                         </div>
                     
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="section3-details">
                             <div class="section3-img">
                                 <a href="#"><img src="image/img6.png" alt=""></a>
@@ -260,12 +270,12 @@
     <section class="section-4">
         <div class="container">
             <div class="section4-top text-center">
-                <h2 class="title">Top Mentioned Products</h2>
-                <h3 class="subtitle">We stay connected to bring you the top products influencers are talking about. </h3>
+                <h2 class="title">Top Products</h2>
+                <h3 class="subtitle">Get the top Items everyone should have in their emergency plan and disaster kit.  </h3>
             </div>
             <div class="row">
                 <!--card-1-->
-                <div class="col-6">
+                <div class="col-lg-6 col-12">
                     <div class="product-card">
                         <div class="product-details">
                             <div class="rating">
@@ -278,7 +288,7 @@
                                 </ul>
                             </div>
                             <div class="product-description">
-                                <a href="#">American Red Cross Clipray</a>
+                               <div style="max-width:350px"><a href="#">American Red Cross Clipray</a></div>
                                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.</p>
                                 <span class="price">$21.06</span>
                                 <span class="discount">- 56%</span>
@@ -292,7 +302,7 @@
                 </div>
 
                  <!--card-2-->
-                 <div class="col-6">
+                 <div class="col-lg-6 col-12">
                     <div class="product-card">
                         <div class="product-details">
                             <div class="rating">
@@ -305,7 +315,7 @@
                                 </ul>
                             </div>
                             <div class="product-description">
-                                <a href="#">American Red Cross Clipray</a>
+                                <a href="#">Sunflair mini Portable Solar..</a>
                                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.</p>
                                 <span class="price">$21.06</span>
                                 <span class="discount">- 56%</span>
@@ -319,7 +329,7 @@
                 </div>
 
                  <!--card-3-->
-                 <div class="col-6">
+                 <div class="col-lg-6 col-12">
                     <div class="product-card">
                         <div class="product-details">
                             <div class="rating">
@@ -332,7 +342,7 @@
                                 </ul>
                             </div>
                             <div class="product-description">
-                                <a href="#">American Red Cross Clipray</a>
+                                <a href="#">Champion Power Equipment..</a>
                                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.</p>
                                 <span class="price">$21.06</span>
                                 <span class="discount">- 56%</span>
@@ -346,7 +356,7 @@
                 </div>
 
                  <!--card-4-->
-                 <div class="col-6">
+                 <div class="col-lg-6  col-12">
                     <div class="product-card">
                         <div class="product-details">
                             <div class="rating">
@@ -359,7 +369,7 @@
                                 </ul>
                             </div>
                             <div class="product-description">
-                                <a href="#">American Red Cross Clipray</a>
+                                <a href="#">BAOFENG BF-F*HP (UV-5R...)</a>
                                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries.</p>
                                 <span class="price">$21.06</span>
                                 <span class="discount">- 56%</span>
@@ -387,8 +397,8 @@
             </div>
             <!---section5-main-area-->
             <div class="section5-main">
-                <div class="row">
-                    <div class="col-3">
+                <div class="row g-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div class="section5-details">
                             <div class="section5-img">
                                 <img src="image/icon1.png" alt="">
@@ -398,7 +408,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div class="section5-details">
                             <div class="section5-img">
                                 <img src="image/icon2.png" alt="">
@@ -408,7 +418,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div class="section5-details">
                             <div class="section5-img">
                                 <img src="image/icon3.png" alt="">
@@ -418,7 +428,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div class="section5-details">
                             <div class="section5-img">
                                 <img src="image/icon4.png" alt="">
@@ -438,7 +448,7 @@
         <div class="container">
             <div class="footer-main">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-4 col-12">
                         <div class="footer-info">
                             <div class="f-logo">
                                 <img src="image/footer-logo.png" alt="">
@@ -455,7 +465,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-lg-4 col-md-4 col-12">
                         <div class="join-info">
                             <h2>Join our family</h2>
                             <div class="form">
@@ -466,7 +476,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-4 col-md-4 col-12">
                         <div class="f-link">
                             <h2>Useful Links</h2>
                             <ul>
@@ -483,12 +493,29 @@
     </footer>
 
 
-    
+    <!---js-->
+    <script>
+        var menuBar = document.getElementById('bar');
+        var resMenu = document.getElementById('res');
+        var crossBar = document.querySelector('.cross span');
+        var allMenuItem = document.querySelectorAll('.responsive-menu-area ul li a');
 
-
-
-    
-
+        //active-menu
+        menuBar.onclick = function(){
+            resMenu.classList.add('active-menu')
+        }
+        //inactive-menu
+        crossBar.onclick=() =>{
+            resMenu.classList.remove('active-menu');
+        }
+        //menu-item-slide-down-code
+        for(let i = 0;i < allMenuItem.length; i++){
+            var element = allMenuItem[i];
+            element.addEventListener('click',function(){
+                resMenu.classList.remove('active-menu')
+            })
+        }
+    </script>
     
    
 
